@@ -1,0 +1,37 @@
+{
+    "version": "1",
+    "information": {
+        "name": "client-count-by-tag",
+        "displayName": "Client Count by Tag",
+        "description": "Dashboard widget displaying client count statistics (total, active, suspended, archived) grouped by client tags.",
+        "url": "",
+        "version": "1.0.0",
+        "ucrmVersionCompliancy": {
+            "min": "2.14.0",
+            "max": null
+        },
+        "unmsVersionCompliancy": {
+            "min": "1.0.0",
+            "max": null
+        },
+        "author": "Custom"
+    },
+    "configuration": [],
+    "menu": [
+        {
+            "key": "Reports",
+            "label": "Client Count by Tag",
+            "type": "admin",
+            "target": "iframe"
+        }
+    ],
+    "widgets": [
+        {
+            "position": "dashboard",
+            "iframeHeight": 400,
+            "iframeUrlParameters": {
+                "widget": "1"
+            }
+        }
+    ]
+}

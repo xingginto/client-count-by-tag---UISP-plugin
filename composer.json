@@ -1,0 +1,14 @@
+{
+    "description": "UISP plugin displaying client count statistics grouped by client tags.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "classes/"
+            ]
+        }
+    },
+    "require": {
+        "ubnt/ucrm-plugin-sdk": "^0.9"
+    }
+}

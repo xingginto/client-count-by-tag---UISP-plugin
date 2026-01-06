@@ -1,0 +1,13 @@
+includes:
+  - vendor/eloquent/phpstan-phony/phony.neon
+  - vendor/phpstan/phpstan-strict-rules/rules.neon
+parameters:
+    ignoreErrors:
+        - '#Only booleans are allowed in#'
+
+        # false positive
+        - '#UcrmOptionsManager::loadOptions\(\) should return .+ but returns .+UcrmOptions\|null#'
+
+        # mixed[] return type of json_decode
+        - '#Method Ubnt\\UcrmPluginSdk\\Util\\Json::decode\(\) should return array but returns mixed.#'
+        - '#Property Ubnt\\UcrmPluginSdk\\Data\\UcrmUser::.+ \(.+\) does not accept mixed.#'
