@@ -150,6 +150,10 @@ For plugin-related issues:
 - Check UCRM documentation
 - Verify UISP system requirements
 
+## Author
+
+**xingginto**
+
 ## License
 
 MIT License - feel free to modify and distribute
