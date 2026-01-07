@@ -4,7 +4,7 @@
         "name": "client-count-by-tag",
         "displayName": "Client Count by Tag",
         "description": "Dashboard widget displaying client count statistics (total, active, suspended, archived) grouped by client tags.",
-        "url": "",
+        "url": "https://github.com/xingginto/",
         "version": "1.0.0",
         "ucrmVersionCompliancy": {
             "min": "2.14.0",
